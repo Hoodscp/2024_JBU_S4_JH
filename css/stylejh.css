@@ -100,35 +100,65 @@ header ul li a {
 #showcase {
   min-height: 600px;
   background: #444 url('/img/1.png') no-repeat center center/cover;
+  color: black;
+}
+
+#showcase .maincon {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+#showcase .concon {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 30px 30px 10px;
+}
+
+#showcase .cun {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#showcase .cun2 {
+  background-color: rgba(21, 43, 73, 0.7);
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#showcase .cun2 h1 {
+  color: white;
+}
+
+#showcase table {
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+
+#showcase th {
+  width: 200px;
+  height: 20px;
   text-align: center;
-  color: #ffffff;
+  border: black 2px solid;
 }
-
-#showcase h1 {
-  margin-top: 100px;
-}
-
 /* boxes */
 
 #boxes {
   padding: 20px 0;
-  justify-content: center;
+  display: flex;
 }
 
 #boxes .box {
-  float: left;
-  width: 30%;
-  padding: 20px;
+  flex-direction: column;
+  padding: 10px;
   text-align: center;
 }
 
-#boxes .box h3 {
+#boxes .box h1 {
   margin-bottom: 20px;
   color: #000000;
 }
 
 #boxes .box p {
-  margin-bottom: 20px;
   color: darkgray;
 }
 

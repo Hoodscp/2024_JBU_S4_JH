@@ -171,3 +171,26 @@ footer {
   padding: 20px;
   margin-top: 20px;
 }
+
+.logo {
+  width: 400px;
+  height: 400px;
+}
+
+@media all and (max-width: 767px) {
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+  #showcase .maincon {
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 10px;
+  }
+  #showcase .maincon a {
+    order: 1;
+  }
+  #showcase .maincon .concon {
+    order: 2;
+  }
+}

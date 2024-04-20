@@ -130,6 +130,9 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
+  .p-container {
+    width: 100%;
+  }
   .left-box .photo {
     order: 1;
     margin-left: auto;

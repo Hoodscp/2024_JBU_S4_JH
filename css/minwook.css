@@ -42,7 +42,7 @@ body {
 
 /* container */
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
   overflow: hidden;
 }
@@ -100,6 +100,9 @@ header {
 header .container {
   display: flex;
   align-items: center;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
 header h1 {

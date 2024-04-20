@@ -161,3 +161,19 @@ body {
     height: 0%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .left-box,
+  .right-box {
+    flex-direction: column;
+    width: 400px;
+  }
+  .left-box .photo,
+  .right-box .photo {
+    margin-left: 300px;
+  }
+  .left-box .intro,
+  .right-box .intro {
+    margin-left: 150px;
+  }
+}
